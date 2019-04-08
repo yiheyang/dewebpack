@@ -1,0 +1,22 @@
+{
+  "name": "dewebpack",
+  "version": "1.1.0",
+  "description": "a command line tool which could transfer comma expression, logical expression, ternary expression from webpacked javascript files into semicolon and if-else statement.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dewebpack",
+    "webpack"
+  ],
+  "bin": {
+    "dewebpack": "./app.js"
+  },
+  "author": "yiheyang",
+  "license": "MIT",
+  "dependencies": {
+    "escodegen": "^1.11.1",
+    "esprima": "^4.0.1"
+  }
+}
